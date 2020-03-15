@@ -39,6 +39,6 @@ function soma(a, b){
     }
 }
 
-soma(2,3)(4)                    //Posso usar dessa forma
+soma(2,3)(4)                    //Posso usar dessa formafsdfs
 const result_soma = soma(2,3)   //Posso armazenar o resultado da função em uma const
 result_soma(4)                  //Passo um valor para a função de dentro
