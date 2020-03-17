@@ -55,8 +55,8 @@ function soma2(a, b ,c){
 }
 
 console.log("---------")
-console.log(soma2())
-console.log(soma2(0,0,0))
+console.log(soma2())                            //Resultado -> 3
+console.log(soma2(0,0,0))                       //Resultado -> 0
 
 
 //Valor padroa do Es2015
@@ -65,4 +65,4 @@ function soma3(a = 1, b = 2, c = 3){
     return a + b + c
 }
 
-console.log(soma3(3))
+console.log(soma3(3))                           //Resultado -> 8
